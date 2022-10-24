@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap");
+
+*{margin:0;padding:0;box-sizing: border-box; font-family: "Poppins", sans-serif;}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#botaoAtualizarRecados {
+    display: none;
+}
+  
+  
+table {  
+    border: 1px solid rgb(182, 182, 182);  
+    border-collapse: collapse;  
+    border-radius: 10%;
+    width: 100%;
+}  
+  
+th, td {  
+    padding: 10px; 
+    width: 250px;
+    text-align: center;
+}  
+  
+body h1 {
+    color: rgb(145, 143, 143);
+}
+
+table th {  
+    color: rgb(53, 52, 52);
+    
+}  
+
+tbody th{
+    opacity: .8;
+}
+  
+img{
+    margin: 0 10px 0 10px;
+}
+  
+form input[type=submit] {
+    width: 15vw;
+    height: 45px;
+    cursor: pointer;
+    background: #417880;
+    color: white;
+    border: 0;
+    transition: 1s;
+}
+
+  
+div#msg-erro{
+    color: red
+}
+
+form input[type=text] {
+    width: 40vw;
+    height: 45px;
+    border: 1px solid #ccc;
+    padding-left: 20px;
+    margin: 10px 0;
+}
+
+form input[type=submit]:hover {
+    background-color: #272262;
+    color: white;
+}
+
+.imgs {
+    width: 25px;
+    cursor: pointer;
+}
+
+.imgs:hover{
+    color: #272262;
+    transition: all .3s ease-out;
+}  
+
+button{
+    background-color: transparent;
+    border-color: #272262;
+    color: #272262;
+    padding: 7px;
+    font-weight: bold;
+    font-size: 12pt;
+    margin-top: 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    outline: none;
+    width: 10%;
+}
+
+#logado{
+    color: #272262;
+}
+

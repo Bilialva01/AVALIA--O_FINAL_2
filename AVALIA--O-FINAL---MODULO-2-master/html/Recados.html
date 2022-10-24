@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Recados</title>
+  <link rel="stylesheet" href="../css/stylesrecados.css" />
+</head>
+
+<body style="margin: 25px;">
+
+  <h1>Meus recados</h1>
+  
+  <h1 id="logado"></h1>
+
+  <div class="btnSair">
+    <button onclick="sair()">Sair</button>
+  </div>
+
+  <div>
+    <form id="infos_recados">
+      <input type="text" id="lembrete" name="lembrete" placeholder="Lembrete" required/>
+
+      <input type="text" id="detalhamento" name="detalhamento" placeholder="Detalhamento" required/>
+
+      <input id="inputCadastrar" type="submit" value="Salvar"/>
+    </form>
+  </div>
+  
+  <hr>
+  <br>
+  <table>
+    <thead>
+      <tr>
+        <th id="th1">#</th>
+        <th id="th2">Lembrete</th>
+        <th id="th3">Detalhamento</th>
+        <th id="th4">Ação</th>
+      </tr>
+    </thead>
+
+    <tbody id="tbody"></tbody>
+  </table>
+</div>
+  <script src="../Js/recados.js"></script>
+</body>
+</html>
